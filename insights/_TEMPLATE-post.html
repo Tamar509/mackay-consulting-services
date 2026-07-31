@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<!--
+  ============================================================================
+  POST TEMPLATE - do not publish this file as it stands.
+
+  To add an insight:
+    1. Copy this file to  /insights/your-post-slug/index.html
+       (a folder per post keeps the URL clean: /insights/your-post-slug/)
+    2. Replace every POST_ placeholder below.
+    3. Add a matching <li> entry at the top of the list in /insights/index.html
+    4. Add the new URL to /sitemap.xml
+    5. Commit. Cloudflare Pages deploys it automatically in about a minute.
+
+  Placeholders to replace:
+    POST_TITLE        - the headline, also used in <title> and og:title
+    POST_SLUG         - the folder name, e.g. drafting-instructions-that-work
+    POST_DESCRIPTION  - one or two sentences, 140-160 characters, for search
+    POST_CATEGORY     - e.g. Regulatory practice / Digital government / Inclusion
+    POST_DATE_ISO     - machine date, e.g. 2026-09-14
+    POST_DATE_HUMAN   - display date, e.g. 14 September 2026
+  ============================================================================
+-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>POST_TITLE | Mackay Consulting Services</title>
+<meta name="description" content="POST_DESCRIPTION">
+<link rel="canonical" href="https://www.mackayconsulting.com/insights/POST_SLUG/">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Mackay Consulting Services">
+<meta property="og:title" content="POST_TITLE">
+<meta property="og:description" content="POST_DESCRIPTION">
+<meta property="og:url" content="https://www.mackayconsulting.com/insights/POST_SLUG/">
+<meta property="og:image" content="https://www.mackayconsulting.com/assets/img/og-image.png">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="POST_DATE_ISO">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/css/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "POST_TITLE",
+  "description": "POST_DESCRIPTION",
+  "datePublished": "POST_DATE_ISO",
+  "dateModified": "POST_DATE_ISO",
+  "inLanguage": "en-GB",
+  "mainEntityOfPage": "https://www.mackayconsulting.com/insights/POST_SLUG/",
+  "author": {
+    "@type": "Organization",
+    "name": "Mackay Consulting Services",
+    "url": "https://www.mackayconsulting.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mackay Consulting Services",
+    "url": "https://www.mackayconsulting.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.mackayconsulting.com/assets/img/logo-mcs-horizontal.svg"
+    }
+  },
+  "isPartOf": { "@id": "https://www.mackayconsulting.com/insights/#blog" }
+}
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="Mackay Consulting Services - home">
+      <img src="/assets/img/logo-mcs-horizontal.svg" width="320" height="44"
+           alt="Mackay Consulting Services">
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" hidden>
+      Menu
+    </button>
+    <nav id="primary-nav" class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/what-we-do/">What We Do</a></li>
+        <li><a href="/our-people/">Our People</a></li>
+        <li><a href="/insights/" aria-current="page">Insights</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <article class="section page-head">
+    <div class="wrap">
+
+      <nav aria-label="Breadcrumb">
+        <p class="eyebrow"><a href="/insights/">Insights</a> &middot; POST_CATEGORY</p>
+      </nav>
+
+      <h1>POST_TITLE</h1>
+      <p class="post-meta"><time datetime="POST_DATE_ISO">POST_DATE_HUMAN</time></p>
+      <hr class="rule">
+
+      <div class="article-body prose">
+
+        <p class="lead">
+          Opening paragraph. State the argument in the first three sentences; this
+          is also what a reader sees in search results and in a link preview.
+        </p>
+
+        <p>Body paragraph.</p>
+
+        <h2>A section heading</h2>
+
+        <p>Body paragraph.</p>
+
+        <blockquote>
+          A single pulled sentence, used sparingly.
+        </blockquote>
+
+        <h2>Another section heading</h2>
+
+        <p>Body paragraph.</p>
+
+        <hr class="rule--full">
+
+        <p><a class="more" href="/insights/">&larr; All insights</a></p>
+      </div>
+
+    </div>
+  </article>
+
+  <section class="section section--tight band--sand cta-band">
+    <div class="wrap">
+      <h2>Discuss this with us</h2>
+      <hr class="rule">
+      <p>One or two sentences tying the piece back to the relevant practice area.</p>
+      <p><a class="btn" href="/contact/">Start a conversation</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-name">Mackay Consulting Services</p>
+        <p class="footer-meta">
+          Governance, legal reform and development consultancy.<br>
+          Incorporated in Sierra Leone, July 2026.
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Site</p>
+        <ul class="footer-list">
+          <li><a href="/what-we-do/">What We Do</a></li>
+          <li><a href="/our-people/">Our People</a></li>
+          <li><a href="/insights/">Insights</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Contact</p>
+        <ul class="footer-list">
+          <li><a href="mailto:info@mackayconsulting.com">info@mackayconsulting.com</a></li>
+          <li>Freetown, Sierra Leone</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>&copy; 2026 Mackay Consulting Services. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>
