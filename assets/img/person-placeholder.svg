@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600" role="img" aria-labelledby="portrait-placeholder-title">
+  <title id="portrait-placeholder-title">Portrait photograph to follow</title>
+  <!--
+    PLACEHOLDER PORTRAIT - 4:5 ratio.
+    Replace with each director's photograph as a WebP or JPEG at 4:5,
+    at least 800 x 1000 pixels, then update the src and alt attributes in
+    /our-people/index.html. Suggested filenames:
+      director-one.webp  director-two.webp  director-three.webp
+    Plain background, even light, waist-up. No group shots.
+  -->
+  <rect width="480" height="600" fill="#F8F5EF"/>
+  <rect x="0" y="0" width="480" height="8" fill="#B08D3F"/>
+  <rect x="120" y="210" width="240" height="180" fill="#D9C7AE"/>
+  <rect x="120" y="430" width="160" height="2" fill="#B08D3F"/>
+  <text x="120" y="468"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="15" letter-spacing="2.4" fill="#8A6D2C">PHOTOGRAPH</text>
+  <text x="120" y="492"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="15" letter-spacing="2.4" fill="#8A6D2C">TO FOLLOW</text>
+</svg>
