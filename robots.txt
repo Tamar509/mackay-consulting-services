@@ -1,0 +1,7 @@
+# robots.txt for Mackay Consulting Services
+# Replace the domain below if the live domain differs.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.mackayconsulting.com/sitemap.xml
