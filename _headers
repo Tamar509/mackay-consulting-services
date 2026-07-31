@@ -1,0 +1,32 @@
+# =============================================================================
+# Cloudflare Pages response headers
+# Cloudflare reads this file automatically. Lines starting with # are comments.
+# Indented lines belong to the path pattern above them.
+# =============================================================================
+
+# ---- Everything -------------------------------------------------------------
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+# ---- Static assets: cache hard ----------------------------------------------
+# Safe because asset filenames only change when their contents change. If you
+# edit site.css and want the change live immediately, rename the file (and the
+# <link> tags) or purge the Cloudflare cache from the dashboard.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# ---- HTML: revalidate so edits appear quickly --------------------------------
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# ---- Keep working files out of search results --------------------------------
+/insights/_TEMPLATE-post.html
+  X-Robots-Tag: noindex, nofollow
