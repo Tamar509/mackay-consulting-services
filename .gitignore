@@ -1,0 +1,14 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node (only relevant if a build step is added later)
+node_modules/
+npm-debug.log*
+
+# Local environment files - never commit secrets
+.env
+.env.*
