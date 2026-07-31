@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 64" width="420" height="64" role="img" aria-labelledby="mcs-logo-title">
+  <title id="mcs-logo-title">Mackay Consulting Services</title>
+  <!--
+    PLACEHOLDER LOCKUP - replace this whole file with the supplied logo.
+    Keep the filename and keep the artwork WIDE (roughly 5:1 to 7:1).
+    The header sizes the logo by height and lets the width run, so a wide
+    horizontal lockup drops straight in with no CSS changes.
+    Export as SVG with text converted to outlines.
+  -->
+  <text x="0" y="29"
+        font-family="Georgia, 'Times New Roman', Times, serif"
+        font-size="26" letter-spacing="0.4" fill="#16181D">Mackay Consulting Services</text>
+  <rect x="0" y="40" width="338" height="2" fill="#B08D3F"/>
+  <text x="0" y="57"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="9" letter-spacing="3" fill="#8A6D2C">GOVERNANCE &#183; LEGAL REFORM &#183; DEVELOPMENT</text>
+</svg>
